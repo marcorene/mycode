@@ -7,6 +7,6 @@ print(name_list[-5:-3])
 combined_list = []
 #print(combined_list)
 combined_list.append(car_list)
-print(combined_list)
+#print(combined_list)
 combined_list.extend(name_list)
 print(combined_list)

@@ -22,4 +22,6 @@ print(list1)
 print(list1[4])
 # display the first item in the list (0th item) - first IP address
 print(list1[4][0])
+#reverse list
+#print(list1.reverse())
 

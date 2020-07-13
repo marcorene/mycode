@@ -10,6 +10,7 @@ combined_list.append(car_list)
 #print(combined_list)
 combined_list.extend(name_list)
 print(combined_list)
+#Now, try to print out Audi and Ford from the combined list, and Sam and Marco from there as well
 print(combined_list[0][1])
 print(combined_list[0][3])
 print(combined_list[2])

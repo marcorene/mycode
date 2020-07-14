@@ -14,5 +14,14 @@ print(challenge["pets"][2])
 # print out 1 movie with its rating and name
 print(challenge["movies"][2])
 
+#as intructor
+# print out 2 of pets with their type and name
+print(challenge["pets"][0]["type"])
+print(challenge["pets"][0]["name"])
 
+print(challenge["pets"][2]["type"])
+print(challenge["pets"][2]["name"])
+# print out 1 movie with its rating and name
+print(challenge["movies"][1]["rating"])
+print(challenge["movies"][1]["name"])
 

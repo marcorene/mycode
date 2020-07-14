@@ -7,4 +7,6 @@ import ztest
 print(datetime.datetime.now())
 print(random.randint(0,10))
 #os.system("ls")
+print(datetime.date.today())
 ztest.main()
+#print(ztest.main.myiplist())

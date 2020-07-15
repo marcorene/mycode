@@ -1,21 +1,7 @@
-vehicles = { "cars": ["civic", "accord", "lambo"], "trucks": ["F150", "Ram1500", "Sierra"] }
+def func(x):
+    res = 0
+    for i in range(x):
+        res += i
+    return res
 
-print(vehicles)
-
-print(vehicles["cars"])
-print(vehicles["cars"][2])
-
-print(vehicles["trucks"])
-print(vehicles["trucks"][1])
-
-
-pets = {"fish": [{"type": "goldfish", "name": "wendy"}, {"type": "beta", "name": "steve"}]}
-
-print(type(pets))
-print(pets["fish"])
-print(type(pets["fish"]))
-print(pets["fish"][0])
-print(type(pets["fish"][0]))
-
-
-print(pets["fish"][0]["name"])
+print(func(4))

@@ -25,9 +25,8 @@ for x, y in enumerate((todo),1):
     if (x) == 1:
         prio = "first"
         #print(y["chore"], " - ", y["time"])
-        n = y["chore"]
-        m = y["time"]
-        print(f"The {prio} thing I have to do is {n}. It should only take {m} minutes.")
+        #print(f"The {prio} thing I have to do is {n}. It should only take {m} minutes.")
+        print(f"The {prio} thing I have to do is {y['chore']}. It should only take {y['time']} minutes.")
     elif (x) == 2:
         prio = "second"
         n = y["chore"]
